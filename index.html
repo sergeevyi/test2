@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Platformer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #5c94fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+    #game-container {
+      position: relative;
+      width: 800px;
+      height: 600px;
+    }
+    canvas {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
